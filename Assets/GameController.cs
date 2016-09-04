@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-	private bool playersComputer = true;
+	public bool playersComputer = true;
 
 	//Global values
 	private int currentDay = 1;
@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour {
 	public GameObject messagePanel;
 
 	private MessageLoader messageLoader;
+	private InfluenceProtocols influenceProtocols;
 
 
 	// Use this for initialization
@@ -36,6 +37,7 @@ public class GameController : MonoBehaviour {
 			whichComputerText.text = "Player's Computer";
 		}
 		statusText.text = "";
+		influenceProtocols = FindObjectOfType<InfluenceProtocols> ().GetComponent<InfluenceProtocols> ();
 		influenceProtocolsPanel.SetActive(false);
 		dayText.text = "Day " + currentDay.ToString ();
 		climateControllers.SetActive (false);
@@ -136,9 +138,19 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void AdvanceDay(){
+		
+
+		//Checks for win cases
+		if (currentDay == 1) {
+			if (influenceProtocols.enemySynergize) {
+				statusText.text = "Success!";
+			} else {
+				statusText.text = "Failure!";
+			}
+		}
+
 		currentDay++;
 		dayText.text = "Day " + currentDay.ToString ();
-
 	}
 	
 	// Update is called once per frame
