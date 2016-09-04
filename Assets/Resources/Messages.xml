@@ -1,0 +1,49 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<MessageCollection>
+  <Messages>
+    <Message ID="01">
+      <FromString>Bill Brasky</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>This is a test of XML String 01</SubjectString>
+      <BodyString>This is a test of some e-mail body, how's it going dude? this is the very first of the emails, we'll see how this works.</BodyString>
+      <DayAdded>0</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+     <Message ID="02">
+      <FromString>Bill Brasky</FromString>
+      <DateString>41266/45</DateString>
+      <SubjectString>This is a test of XML String 02 - Long Message Experiment</SubjectString>
+      <BodyString>
+      This is even more of that system. Trying a few more things, this is the second email in the XML database. Pretty cool right? The quick brown fox jumps over the lazy dog.
+      Pretty cool right? The quick brown fox jumps over the lazy dog.
+      Pretty cool right? The quick brown fox jumps over the lazy dog. 
+      Pretty cool right? The quick brown fox jumps over the lazy dog.</BodyString>
+      <DayAdded>1</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+    <Message ID="03">
+      <FromString>Tom Ford</FromString>
+      <DateString>41266/45</DateString>
+      <SubjectString>This is a test of XML String 03</SubjectString>
+	  <BodyString>Holy crap even more email. This is getting ridiculous since this is the 3rd time.</BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+    <Message ID="04">
+      <FromString>Tom Ford</FromString>
+      <DateString>41266/45</DateString>
+      <SubjectString>This is an Enemy Email 04</SubjectString>
+	  <BodyString>Holy crap even more email. This is getting ridiculous since this is the 3rd time.</BodyString>
+      <DayAdded>0</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+    <Message ID="05">
+      <FromString>Tom Ford</FromString>
+      <DateString>41266/45</DateString>
+      <SubjectString>This is an Enemy Email 05</SubjectString>
+	  <BodyString>Holy crap even more email. This is getting ridiculous since this is the 3rd time.</BodyString>
+      <DayAdded>1</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+  </Messages>
+</MessageCollection>
