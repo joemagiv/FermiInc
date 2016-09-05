@@ -29,6 +29,7 @@ public class GameController : MonoBehaviour {
 
 	private MessageLoader messageLoader;
 	private InfluenceProtocols influenceProtocols;
+	private Planet planet;
 
 
 	// Use this for initialization
@@ -38,6 +39,7 @@ public class GameController : MonoBehaviour {
 		}
 		statusText.text = "";
 		influenceProtocols = FindObjectOfType<InfluenceProtocols> ().GetComponent<InfluenceProtocols> ();
+		planet = FindObjectOfType<Planet> ().GetComponent<Planet> ();
 		influenceProtocolsPanel.SetActive(false);
 		dayText.text = "Day " + currentDay.ToString ();
 		climateControllers.SetActive (false);
@@ -88,6 +90,7 @@ public class GameController : MonoBehaviour {
 			whichComputerText.text = "Player's Computer";
 		}
 		statusText.text = "";
+		planet.switchPlanet ();
 
 	}
 
