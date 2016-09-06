@@ -24,6 +24,8 @@ public class InfluenceProtocols : MonoBehaviour {
 	public bool enemyAlignVerticals = false;
 	public bool enemySynergize = false;
 
+	public GameObject influenceProtocolsPanel;
+
 	// Use this for initialization
 	void Start () {
 		gameController = FindObjectOfType<GameController> ().GetComponent<GameController> ();
@@ -48,6 +50,7 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Technological Seeding disabled";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
 
 	}
 
@@ -71,6 +74,7 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Civilization Consolidation disabled";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
 
 	}
 
@@ -93,6 +97,8 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Massive Structure Generation disabled";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
+
 	}
 
 	public void ResourceReallocationSwitch(){
@@ -114,6 +120,8 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Resources Returned to Previous Allocation";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
+
 
 	}
 
@@ -136,6 +144,8 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Scalability Decreased";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
+
 
 	}
 
@@ -158,6 +168,8 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Assets Unleveraged";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
+
 
 	}
 
@@ -180,6 +192,8 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Synergization disabled";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
+
 
 	}
 
@@ -202,6 +216,8 @@ public class InfluenceProtocols : MonoBehaviour {
 				gameController.statusText.text = "Verticals Misaligned";
 			}
 		}
+		influenceProtocolsPanel.SetActive (false);
+
 
 	}
 

@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: 4b41bf6dfe97f0046b7e34ccdeca1a97
+timeCreated: 1473141257
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bossspritesheetpyxel_0
+    21300002: Bossspritesheetpyxel_1
+    21300004: Bossspritesheetpyxel_2
+    21300006: Bossspritesheetpyxel_3
+    21300008: Bossspritesheetpyxel_4
+    21300010: Bossspritesheetpyxel_5
+    21300012: Bossspritesheetpyxel_6
+    21300014: Bossspritesheetpyxel_7
+    21300016: Bossspritesheetpyxel_8
+    21300018: Bossspritesheetpyxel_9
+    21300020: Bossspritesheetpyxel_10
+    21300022: Bossspritesheetpyxel_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bossspritesheetpyxel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: -72}
+        - {x: 37, y: 7}
+        - {x: 34, y: 19}
+        - {x: 31, y: 22}
+        - {x: 48, y: 53}
+        - {x: 59, y: 77}
+        - {x: 59, y: 95}
+        - {x: -18, y: 95}
+        - {x: -55, y: -48}
+        - {x: -55, y: -86}
+        - {x: -38, y: -95}
+        - {x: 0, y: -95}
+        - {x: 20, y: -92}
+        - {x: 50, y: -80}
+        - {x: 59, y: -74}
+      - - {x: 12, y: 52}
+        - {x: 11, y: 61}
+        - {x: 12, y: 48}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 59, y: 91}
+        - {x: -23, y: 91}
+        - {x: -49, y: -18}
+        - {x: -49, y: -87}
+        - {x: -48, y: -90}
+        - {x: 34, y: -90}
+        - {x: 46, y: -88}
+        - {x: 59, y: -23}
+      - - {x: 10, y: 50}
+        - {x: 11, y: 48}
+        - {x: 12, y: 48}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 88}
+        - {x: -37, y: -37}
+        - {x: -37, y: -78}
+        - {x: -27, y: -76}
+        - {x: -9, y: -90}
+        - {x: 23, y: -90}
+        - {x: 38, y: -77}
+        - {x: 59, y: 4}
+        - {x: 59, y: 88}
+      - - {x: 10, y: 47}
+        - {x: 11, y: 45}
+        - {x: 12, y: 45}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 92}
+        - {x: -14, y: 91}
+        - {x: -24, y: 40}
+        - {x: -26, y: -25}
+        - {x: -47, y: -58}
+        - {x: -54, y: -72}
+        - {x: -54, y: -88}
+        - {x: -51, y: -91}
+        - {x: 39, y: -91}
+        - {x: 59, y: -4}
+        - {x: 59, y: 92}
+      - - {x: 10, y: 51}
+        - {x: 10, y: 59}
+        - {x: 11, y: 48}
+        - {x: 12, y: 49}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 94}
+        - {x: -14, y: 93}
+        - {x: -21, y: 52}
+        - {x: -27, y: 9}
+        - {x: -54, y: -65}
+        - {x: -54, y: -80}
+        - {x: -32, y: -92}
+        - {x: 40, y: -92}
+        - {x: 59, y: -69}
+        - {x: 59, y: 94}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    - name: Bossspritesheetpyxel_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64, y: 73}
+        - {x: 58, y: 94}
+        - {x: -21, y: 94}
+        - {x: -26, y: 29}
+        - {x: -26, y: -91}
+        - {x: 4, y: -91}
+        - {x: 11, y: -88}
+        - {x: 31, y: -49}
+        - {x: 64, y: 33}
+      - - {x: -2, y: -40}
+        - {x: 1, y: -47}
+        - {x: -2, y: -52}
+        - {x: -1, y: -52}
+      - - {x: 16, y: 33}
+        - {x: 15, y: 34}
+        - {x: 23, y: 33}
+        - {x: 21, y: 34}
+        - {x: 18, y: 33}
+        - {x: 15, y: 29}
+        - {x: 16, y: 25}
+      - - {x: 10, y: 53}
+        - {x: 10, y: 61}
+        - {x: 11, y: 50}
+        - {x: 12, y: 51}
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

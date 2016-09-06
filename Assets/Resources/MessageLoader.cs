@@ -21,7 +21,7 @@ public class MessageLoader : MonoBehaviour {
 		if (playerEmails) {
 			foreach (Message message in mc.messages) {
 				if (message.playerEmail) {
-					if (currentDate >= message.dayAdded) {
+					if (currentDate == message.dayAdded) {
 						GameObject newMessage = Instantiate (messagePrefab, messageParentPosition, messagesParent.transform.rotation) as GameObject;
 						newMessage.transform.parent = messagesParent.transform;
 						MessageObject messageObject = newMessage.GetComponent<MessageObject> ();
@@ -36,7 +36,7 @@ public class MessageLoader : MonoBehaviour {
 		} else {
 			foreach (Message message in mc.messages) {
 				if (!message.playerEmail) {
-					if (currentDate >= message.dayAdded) {
+					if (currentDate == message.dayAdded) {
 						GameObject newMessage = Instantiate (messagePrefab, messageParentPosition, messagesParent.transform.rotation) as GameObject;
 						newMessage.transform.parent = messagesParent.transform;
 						MessageObject messageObject = newMessage.GetComponent<MessageObject> ();

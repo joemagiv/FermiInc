@@ -137,6 +137,10 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void MessagesClose(){
+		MessageObject[] messages = FindObjectsOfType<MessageObject> ();
+		foreach (MessageObject thisMessage in messages) {
+			Destroy (thisMessage.gameObject);
+		}
 		messagePanel.SetActive (false);
 	}
 
@@ -145,15 +149,59 @@ public class GameController : MonoBehaviour {
 
 		//Checks for win cases
 		if (currentDay == 1) {
-			if (influenceProtocols.enemySynergize) {
-				statusText.text = "Success!";
+			if (!enemyMeoteorDefense) {
+				gameSuccess ();
 			} else {
-				statusText.text = "Failure!";
+				gameFailure ();
+			}
+		}
+		if (currentDay == 2) {
+			if (enemyPlanetTemp<13 && influenceProtocols.enemyAlignVerticals) {
+				gameSuccess ();
+			} else {
+				gameFailure ();
 			}
 		}
 
+		if (currentDay == 3) {
+			if (influenceProtocols.enemyTechnologicalSeeding && influenceProtocols.enemySynergize) {
+				gameSuccess ();
+				enemyPlanetTemp = 8;
+			} else {
+				gameFailure ();
+			}
+		}
+
+		if (currentDay == 4) {
+			if (enemyPlanetTemp>10 && influenceProtocols.enemyMassiveStructure) {
+				gameSuccess ();
+			} else {
+				gameFailure ();
+			}
+		}
+
+		if (currentDay == 5) {
+			if (!enemyMeoteorDefense) {
+				gameSuccess ();
+			} else {
+				gameFailure ();
+			}
+		}
+			
+
+
 		currentDay++;
 		dayText.text = "Day " + currentDay.ToString ();
+	}
+
+	public void gameSuccess(){
+		statusText.text = "Success!";
+
+	}
+
+	public void gameFailure(){
+		statusText.text = "Failure!";
+
 	}
 	
 	// Update is called once per frame

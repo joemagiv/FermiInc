@@ -2,48 +2,387 @@
 <MessageCollection>
   <Messages>
     <Message ID="01">
-      <FromString>Bill Brasky</FromString>
+      <FromString>Supervisor Garn</FromString>
       <DateString>4124/45</DateString>
-      <SubjectString>This is a test of XML String 01</SubjectString>
-      <BodyString>This is a test of some e-mail body, how's it going dude? this is the very first of the emails, we'll see how this works.</BodyString>
-      <DayAdded>0</DayAdded>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Planet ID 6462 continues to show little improvement with latest protocols. Very low life signs, resources are failing to develop.
+I will notify you if things change but currently I am less than optimistic.
+-Planetary Supervisor Dan Garn
+Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>1</DayAdded>
       <PlayerEmail>true</PlayerEmail>
     </Message>
      <Message ID="02">
-      <FromString>Bill Brasky</FromString>
-      <DateString>41266/45</DateString>
-      <SubjectString>This is a test of XML String 02 - Long Message Experiment</SubjectString>
-      <BodyString>
-      This is even more of that system. Trying a few more things, this is the second email in the XML database. Pretty cool right? The quick brown fox jumps over the lazy dog.
-      Pretty cool right? The quick brown fox jumps over the lazy dog.
-      Pretty cool right? The quick brown fox jumps over the lazy dog. 
-      Pretty cool right? The quick brown fox jumps over the lazy dog.</BodyString>
+      <FromString>Becky Zizlch</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>Turn in timecards!</SubjectString>
+      <BodyString>Heyyy everyone, it's Becky from HR!
+We've got a long weekend coming up so be sure you submit your timecards before Yrgalday!
+Thaaanks!
+	  </BodyString>
+      <DayAdded>1</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="07">
+      <FromString>Jay Byrzburg</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>Following Up</SubjectString>
+      <BodyString>Hey buddy,
+Just wanted to follow up with our talk earlier today, I'm really hoping you can turn your planet around.
+Would really hate to let you go but I can't be carrying around deadweight, maybe Les can give you some pointers.
+Don't be afraid to ask for help from your betters! Keep that in mind!
+	  -Jay "The burg" Byrzburg x.3456
+	  </BodyString>
+      <DayAdded>1</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="08">
+      <FromString>Paul (roommate)</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>Rent</SubjectString>
+      <BodyString>Couldn't help but notice you forgot to leave a rent check out for me. 
+We're going to have to have a house meeting, don't flake like last time or I'm pouring your "special occasion" wine down the drain.
+	  -Paul
+	  </BodyString>
       <DayAdded>1</DayAdded>
       <PlayerEmail>true</PlayerEmail>
     </Message>
     <Message ID="03">
-      <FromString>Tom Ford</FromString>
-      <DateString>41266/45</DateString>
-      <SubjectString>This is a test of XML String 03</SubjectString>
-	  <BodyString>Holy crap even more email. This is getting ridiculous since this is the 3rd time.</BodyString>
-      <DayAdded>2</DayAdded>
+      <FromString>Supervisor Flark</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+	  <BodyString> Hey Les!
+Things are going great down here! The dinosaurs are thriving and life is flourishing across the planet.
+Not sure what magic you're working up there but it's showing great dividends. I have noticed a slight uptick in meteoric activity but the defense matrix is holding strong. 
+Keep it up man!
+	  -Supervisor Flark
+	  Planet ZZ9-42 ext. 52752
+	  
+	  </BodyString>
+      <DayAdded>1</DayAdded>
       <PlayerEmail>false</PlayerEmail>
     </Message>
     <Message ID="04">
-      <FromString>Tom Ford</FromString>
-      <DateString>41266/45</DateString>
-      <SubjectString>This is an Enemy Email 04</SubjectString>
-	  <BodyString>Holy crap even more email. This is getting ridiculous since this is the 3rd time.</BodyString>
-      <DayAdded>0</DayAdded>
-      <PlayerEmail>false</PlayerEmail>
-    </Message>
-    <Message ID="05">
-      <FromString>Tom Ford</FromString>
-      <DateString>41266/45</DateString>
-      <SubjectString>This is an Enemy Email 05</SubjectString>
-	  <BodyString>Holy crap even more email. This is getting ridiculous since this is the 3rd time.</BodyString>
+      <FromString>Marsha Izfizz</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>Dinner?</SubjectString>
+	  <BodyString>Hey honey,
+I know you've been working real hard lately, so I thought maybe we'd go out somewhere special tonight?
+I guess that's not so much a question because I already booked us the Gray Room at Blorfo's! 
+See you there at 47 o'clock sharp!
+	  -Pookums
+	  </BodyString>
       <DayAdded>1</DayAdded>
       <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="06">
+      <FromString>Becky Zizlch</FromString>
+      <DateString>4124/45</DateString>
+      <SubjectString>Turn in timecards!</SubjectString>
+      <BodyString>Heyyy everyone, it's Becky from HR!
+We've got a long weekend coming up so be sure you submit your timecards before Yrgalday!
+Thaaanks!
+	  </BodyString>
+      <DayAdded>1</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="05">
+      <FromString>Supervisor Garn</FromString>
+      <DateString>4125/45</DateString>
+      <SubjectString>Daily Update</SubjectString>
+	  <BodyString> Greetings Manager.
+A moderate uptick in activity today, not totally sure what from. Possibly just an issue with our instrumentation.
+I'll keep an eye on it and report in if there's actually a positive trend.
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="09">
+      <FromString>PMCON</FromString>
+      <DateString>4125/45</DateString>
+      <SubjectString>Registration Due</SubjectString>
+	  <BodyString> Attention all Planetary Managers!
+The Planetary Manager Convention is coming up in just a few short weeks. This is a great opportunity to learn about all the latest happenings in PM Business Solutions!
+If you'd like to speak at this please contact a PMCON with your submission package!
+Be sure to submit your registration before 4256/45 for early bird rates! See you there!
+	  </BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="10">
+      <FromString>PMCON</FromString>
+      <DateString>4125/45</DateString>
+      <SubjectString>Registration Due</SubjectString>
+	  <BodyString> Attention all Planetary Managers!
+The Planetary Manager Convention is coming up in just a few short weeks. This is a great opportunity to learn about all the latest happenings in PM Business Solutions!
+If you'd like to speak at this please contact a PMCON with your submission package!
+Be sure to submit your registration before 4256/45 for early bird rates! See you there!
+	  </BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="11">
+      <FromString>Supervisor Flark</FromString>
+      <DateString>4125/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+	  <BodyString> Heyyy Les,
+Soooo, bad news bud, seems like the Meteoric Defense Matrix got disabled and the planet got hit pretty bad. The dust kicked up from the impact has covered the planet in a layer of dust that basically killed everything.
+Life scores way down, resources took a hit, the environment is mostly fine and should return to normal as long as temperatures hold steady above 13frz.
+	  -Supervisor Flark
+	  Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+	 </Message>
+	<Message ID="12">
+      <FromString>Jay Byrzburg</FromString>
+      <DateString>4125/45</DateString>
+      <SubjectString>Tough Luck</SubjectString>
+      <BodyString>Hey rockstar,
+Heard about your bad luck with the asteroid, or was it a meteor? I can never keep those two straight.
+I AM worried that this sort of event can sometimes kick start a civilization, make sure your verticals are still out of alignment and we shouldn't have any problem.
+Anyways just wanted to say that everybody has an off day and I'm sure this won't reflect too poorly on your semi-quarterly review.
+	  -Jay "The burg" Byrzburg x.3456
+	  </BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>false</PlayerEmail> 
+    </Message>
+	<Message ID="13">
+      <FromString>CoLabOrate</FromString>
+      <DateString>4125/45</DateString>
+      <SubjectString>Brunk Korix wants to colab</SubjectString>
+      <BodyString>Greetings Les-Master05
+Brunk Korix (recruiter) wants to colab on the #1 business network CoLabOrate.
+Login to your account to accept their invitation to colab.
+DO NOT REPLY
+	  </BodyString>
+      <DayAdded>2</DayAdded>
+      <PlayerEmail>false</PlayerEmail> 
+    </Message>
+	<Message ID="14">
+      <FromString>Supervisor Garn</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Nothing really exciting, numbers are similar to yesterday.
+I guess you could say the planet is flat... sorry I'm not great at jokes but it's really boring down here.
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="15">
+      <FromString>Trisha MzKillan</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Weekly Newsletter</SubjectString>
+      <BodyString>Hey Jon!
+It's Trisha, I'm the PM of Planet 2209 (doin alright thank you very much).
+I heard about how your planet is doing so well. Was wondering if I could include a piece about it for our weekly newsletter. That ok? Hit me up!
+	  -Trisha
+	  PM Planet 2209 ext. 7374
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="16">
+      <FromString>Jay Byrzburg</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Kickin' Butt</SubjectString>
+      <BodyString>Hey buddy,
+Seen you've been slowly rising in the rankings. Call me a zark's ass for doubting you!
+We should go get a drink sometime after work, keep up the good work.
+	  -Jay "The burg" Byrzburg x.3456
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="17">
+      <FromString>Becky Zizlch</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Hat Sizes</SubjectString>
+      <BodyString>Hey everyone Becky again!
+We're planning a special surprise for everyone and need your hat sizes.
+Please respond with your head circumfrence and the thickness of your antennae (we use the Q-QQL scale, no judgment).
+Thaaanks.
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="18">
+      <FromString>Becky Zizlch</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Hat Sizes</SubjectString>
+      <BodyString>Hey everyone Becky again!
+We're planning a special surprise for everyone and need your hat sizes.
+Please respond with your head circumfrence and the thickness of your antennae (we use the Q-QQL scale, no judgment).
+Thaaanks.
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="19">
+      <FromString>Supervisor Flark</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Hey boss,
+Things are getting worse, much worse. So the temperature dropped suddenly and there was a brief ice age.
+The ice age cleared but here's the real bad news... I hope you're sitting down for this, the planet has got apes now. 
+We're going to need to stabilize this before they start understanding tools, they're not ready for it. Be sure to cancel any and all seeding protocols. 
+	  -Supervisor Flark
+	  Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="20">
+      <FromString>Jay Byrzburg</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Apes</SubjectString>
+      <BodyString>You let your planet become infested with apes!?
+I don't need to remind you what happens if you don't deal with this soon.
+If they reach synergization we're going to be having a very difficult discussion.
+	  -Jay
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="21">
+      <FromString>Marsha Izfizz</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Hey?</SubjectString>
+      <BodyString>Les-bear, is everything alright? You seemed really out of it yesterday and you rushed out this morning.
+Let me know if there's anything I can do. 
+	-Marsha
+	  </BodyString>
+      <DayAdded>3</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="22">
+      <FromString>Supervisor Garn</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Resource numbers are up, lifesigns continue to be stable. Saw we're starting to rise in the rankings,
+I'm sure that's making you happy. I know I hated how we were on the bottom for so long. At this rate we could easily be on top before the end of the cycle.
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="23">
+     <FromString>Jay Byrzburg</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Acknowleding Accomplishment</SubjectString>
+      <BodyString>Hey everyone,
+I wanted to highlight Jon Stirch the Manager of Planet 6462. Over the past few days he's turned a lifeless little rock into a thriving resource cache. Take from Jon's example and remember to never give up hope!
+	  -Jay "The burg" Byrzburg x.3456
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="24">
+     <FromString>Jay Byrzburg</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Acknowleding Accomplishment</SubjectString>
+      <BodyString>Hey everyone,
+I wanted to highlight Jon Stirch the Manager of Planet 6462. Over the past few days he's turned a lifeless little rock into a thriving resource cache. Take from Jon's example and remember to never give up hope!
+	  -Jay "The burg" Byrzburg x.3456
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="25">
+     <FromString>ArzMart</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Weekend Sale</SubjectString>
+      <BodyString>Greeting loyal ArzMart customer!
+This weekend there's a special 40% discount on all interoceters and interoceter-related goods.
+Remember when you think of interoceters think ArzMart!
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="26">
+     <FromString>Supervisor Flark</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Daily Report - CRITICAL</SubjectString>
+      <BodyString>CRITICAL REPORT
+The apes have gone humanoid, I repeat the apes have gone humanoid. They're using tools and walking upright, they're hunting AND gathering. 
+This is a Class A civilization jump forward. I'm going to have to report this. I've assigned a civilization specialist in the interim.
+	  -Supervisor Flark
+	  Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="26">
+     <FromString>Jay Byrzburg</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Planet ZZ9-42</SubjectString>
+      <BodyString>Meet me in my office as soon as you get this message. If you can't slow the humanoids shelter construction I'll have to write you up.
+	  -Supervisor Flark
+	  Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="27">
+     <FromString>Jane Parzkek</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>CivSpec Analyst</SubjectString>
+      <BodyString>Greetings Mr. Izfizz,
+	  I'm Jane Parzkek the specially assigned Civilization Specialist. I was assigned by your Planetary Supervisor to provide support.
+Seems like you've really made a mess of this haven't you Mr. Izfizz? Well I'm going to initiate an immediate freeze off.
+This should kill the humanoids and reduce the resource score, but we can't afford to take any chances. Temperature must maintain below 10frz to ensure total burnoff. 
+	  -Jane Parzkek
+	  CivSpec Class 2 x.4652
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="28">
+     <FromString>RetirementX</FromString>
+      <DateString>4127/45</DateString>
+      <SubjectString>Are you contributing?</SubjectString>
+      <BodyString>Greetings Izfizz01,
+We saw that you recently stopped contributing to your retirement funds. Is this correct?
+If you would like to resume contributions at your previous rate please reach out to your represenative.
+	  Thanks.
+	  RetirementX automated message system
+	  </BodyString>
+      <DayAdded>4</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	 </Message>
+	<Message ID="29">
+     <FromString>Supervisor Garn</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Resource numbers rose sharply, dipped, and then rose again. Life signs are starting to show stronger than before, we could be looking at algae very shortly. Fingers Crossed
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="30">
+     <FromString>Supervisor Garn</FromString>
+      <DateString>4126/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Resource numbers rose sharply, dipped, and then rose again. Life signs are starting to show stronger than before, we could be looking at algae very shortly. Fingers Crossed
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
     </Message>
   </Messages>
 </MessageCollection>

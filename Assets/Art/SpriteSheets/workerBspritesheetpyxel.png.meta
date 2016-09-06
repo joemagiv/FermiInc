@@ -1,0 +1,1043 @@
+fileFormatVersion: 2
+guid: 92dac5772ac64bb439b58b96eab6b17a
+timeCreated: 1473137357
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: workerBspritesheetpyxel_0
+    21300002: workerBspritesheetpyxel_1
+    21300004: workerBspritesheetpyxel_2
+    21300006: workerBspritesheetpyxel_3
+    21300008: workerBspritesheetpyxel_4
+    21300010: workerBspritesheetpyxel_5
+    21300012: workerBspritesheetpyxel_6
+    21300014: workerBspritesheetpyxel_7
+    21300016: workerBspritesheetpyxel_8
+    21300018: workerBspritesheetpyxel_9
+    21300020: workerBspritesheetpyxel_10
+    21300022: workerBspritesheetpyxel_11
+    21300024: workerBspritesheetpyxel_12
+    21300026: workerBspritesheetpyxel_13
+    21300028: workerBspritesheetpyxel_14
+    21300030: workerBspritesheetpyxel_15
+    21300032: workerBspritesheetpyxel_16
+    21300034: workerBspritesheetpyxel_17
+    21300036: workerBspritesheetpyxel_18
+    21300038: workerBspritesheetpyxel_19
+    21300040: workerBspritesheetpyxel_20
+    21300042: workerBspritesheetpyxel_21
+    21300044: workerBspritesheetpyxel_22
+    21300046: workerBspritesheetpyxel_23
+    21300048: workerBspritesheetpyxel_24
+    21300050: workerBspritesheetpyxel_25
+    21300052: workerBspritesheetpyxel_26
+    21300054: workerBspritesheetpyxel_27
+    21300056: workerBspritesheetpyxel_28
+    21300058: workerBspritesheetpyxel_29
+    21300060: workerBspritesheetpyxel_30
+    21300062: workerBspritesheetpyxel_31
+    21300064: workerBspritesheetpyxel_32
+    21300066: workerBspritesheetpyxel_33
+    21300068: workerBspritesheetpyxel_34
+    21300070: workerBspritesheetpyxel_35
+    21300072: workerBspritesheetpyxel_36
+    21300074: workerBspritesheetpyxel_37
+    21300076: workerBspritesheetpyxel_38
+    21300078: workerBspritesheetpyxel_39
+    21300080: workerBspritesheetpyxel_40
+    21300082: workerBspritesheetpyxel_41
+    21300084: workerBspritesheetpyxel_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: workerBspritesheetpyxel_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 75}
+        - {x: -42, y: -80}
+        - {x: -37, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 75}
+        - {x: -42, y: 66}
+        - {x: -42, y: -75}
+        - {x: -7, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 75}
+        - {x: -42, y: 50}
+        - {x: -42, y: -51}
+        - {x: -18, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 56}
+        - {x: 40, y: 61}
+        - {x: 37, y: 75}
+        - {x: -28, y: 75}
+        - {x: -36, y: 74}
+        - {x: -42, y: 70}
+        - {x: -42, y: -76}
+        - {x: -36, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 14}
+        - {x: 27, y: 19}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 75}
+        - {x: -36, y: 74}
+        - {x: -42, y: 70}
+        - {x: -42, y: -66}
+        - {x: -31, y: -92}
+        - {x: 39, y: -92}
+        - {x: 40, y: -90}
+        - {x: 40, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 75}
+        - {x: -42, y: 66}
+        - {x: -42, y: -75}
+        - {x: -7, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 75}
+        - {x: -42, y: 50}
+        - {x: -42, y: -51}
+        - {x: -18, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 75}
+        - {x: -42, y: -80}
+        - {x: -37, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -71}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 75}
+        - {x: -42, y: -80}
+        - {x: -37, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 76}
+        - {x: -38, y: 75}
+        - {x: -42, y: 72}
+        - {x: -42, y: -58}
+        - {x: -29, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 76}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 76}
+        - {x: -42, y: 68}
+        - {x: -42, y: -71}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 71}
+        - {x: 37, y: 76}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 81}
+        - {x: -42, y: 72}
+        - {x: -42, y: -70}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_23
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -100}
+        - {x: 29, y: -97}
+        - {x: 24, y: -97}
+        - {x: 23, y: -100}
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_31
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 90}
+        - {x: -28, y: 90}
+        - {x: -42, y: 44}
+        - {x: -42, y: -89}
+        - {x: 4, y: -89}
+        - {x: 42, y: 62}
+        - {x: 42, y: 87}
+      - - {x: -7, y: 49}
+        - {x: -6, y: 47}
+        - {x: -5, y: 47}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 100}
+        - {x: -18, y: 100}
+        - {x: -60, y: -59}
+        - {x: -60, y: -77}
+        - {x: -45, y: -89}
+        - {x: -2, y: -89}
+        - {x: 40, y: -80}
+        - {x: 46, y: -68}
+        - {x: 54, y: -43}
+      - - {x: 5, y: 60}
+        - {x: 6, y: 58}
+        - {x: 7, y: 58}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 97}
+        - {x: -54, y: 1}
+        - {x: -54, y: -82}
+        - {x: -53, y: -84}
+        - {x: 22, y: -84}
+        - {x: 54, y: -59}
+        - {x: 54, y: 97}
+      - - {x: 5, y: 56}
+        - {x: 6, y: 54}
+        - {x: 7, y: 54}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 94}
+        - {x: -21, y: 91}
+        - {x: -42, y: -26}
+        - {x: -42, y: -84}
+        - {x: 49, y: -84}
+        - {x: 54, y: -53}
+        - {x: 54, y: 94}
+      - - {x: 5, y: 53}
+        - {x: 6, y: 51}
+        - {x: 7, y: 51}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 98}
+        - {x: -30, y: 75}
+        - {x: -59, y: -38}
+        - {x: -59, y: -85}
+        - {x: 23, y: -85}
+        - {x: 54, y: -58}
+        - {x: 54, y: 98}
+      - - {x: 5, y: 57}
+        - {x: 6, y: 55}
+        - {x: 7, y: 55}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 53, y: 100}
+        - {x: -24, y: 100}
+        - {x: -59, y: -28}
+        - {x: -59, y: -83}
+        - {x: -42, y: -86}
+        - {x: 8, y: -86}
+        - {x: 25, y: -85}
+        - {x: 43, y: -80}
+        - {x: 53, y: -46}
+      - - {x: 4, y: 62}
+        - {x: 5, y: 60}
+        - {x: 6, y: 60}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 93}
+        - {x: -78, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -77, y: 95}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_40
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    - name: workerBspritesheetpyxel_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 67, y: 90}
+        - {x: 69, y: 92}
+        - {x: 68, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

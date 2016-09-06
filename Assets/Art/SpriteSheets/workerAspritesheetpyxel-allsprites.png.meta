@@ -1,0 +1,1054 @@
+fileFormatVersion: 2
+guid: 15113c932b434434a9f623600d7fa122
+timeCreated: 1473136414
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: workerAspritesheetpyxel-allsprites_0
+    21300002: workerAspritesheetpyxel-allsprites_1
+    21300004: workerAspritesheetpyxel-allsprites_2
+    21300006: workerAspritesheetpyxel-allsprites_3
+    21300008: workerAspritesheetpyxel-allsprites_4
+    21300010: workerAspritesheetpyxel-allsprites_5
+    21300012: workerAspritesheetpyxel-allsprites_6
+    21300014: workerAspritesheetpyxel-allsprites_7
+    21300016: workerAspritesheetpyxel-allsprites_8
+    21300018: workerAspritesheetpyxel-allsprites_9
+    21300020: workerAspritesheetpyxel-allsprites_10
+    21300022: workerAspritesheetpyxel-allsprites_11
+    21300024: workerAspritesheetpyxel-allsprites_12
+    21300026: workerAspritesheetpyxel-allsprites_13
+    21300028: workerAspritesheetpyxel-allsprites_14
+    21300030: workerAspritesheetpyxel-allsprites_15
+    21300032: workerAspritesheetpyxel-allsprites_16
+    21300034: workerAspritesheetpyxel-allsprites_17
+    21300036: workerAspritesheetpyxel-allsprites_18
+    21300038: workerAspritesheetpyxel-allsprites_19
+    21300040: workerAspritesheetpyxel-allsprites_20
+    21300042: workerAspritesheetpyxel-allsprites_21
+    21300044: workerAspritesheetpyxel-allsprites_22
+    21300046: workerAspritesheetpyxel-allsprites_23
+    21300048: workerAspritesheetpyxel-allsprites_24
+    21300050: workerAspritesheetpyxel-allsprites_25
+    21300052: workerAspritesheetpyxel-allsprites_26
+    21300054: workerAspritesheetpyxel-allsprites_27
+    21300056: workerAspritesheetpyxel-allsprites_28
+    21300058: workerAspritesheetpyxel-allsprites_29
+    21300060: workerAspritesheetpyxel-allsprites_30
+    21300062: workerAspritesheetpyxel-allsprites_31
+    21300064: workerAspritesheetpyxel-allsprites_32
+    21300066: workerAspritesheetpyxel-allsprites_33
+    21300068: workerAspritesheetpyxel-allsprites_34
+    21300070: workerAspritesheetpyxel-allsprites_35
+    21300072: workerAspritesheetpyxel-allsprites_36
+    21300074: workerAspritesheetpyxel-allsprites_37
+    21300076: workerAspritesheetpyxel-allsprites_38
+    21300078: workerAspritesheetpyxel-allsprites_39
+    21300080: workerAspritesheetpyxel-allsprites_40
+    21300082: workerAspritesheetpyxel-allsprites_41
+    21300084: workerAspritesheetpyxel-allsprites_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: workerAspritesheetpyxel-allsprites_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 75}
+        - {x: -42, y: -80}
+        - {x: -37, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -71}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 56}
+        - {x: 40, y: 61}
+        - {x: 37, y: 75}
+        - {x: -28, y: 75}
+        - {x: -36, y: 74}
+        - {x: -42, y: 70}
+        - {x: -42, y: -76}
+        - {x: -36, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 14}
+        - {x: 27, y: 19}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 75}
+        - {x: -36, y: 74}
+        - {x: -42, y: 70}
+        - {x: -42, y: -66}
+        - {x: -31, y: -92}
+        - {x: 39, y: -92}
+        - {x: 40, y: -90}
+        - {x: 40, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -71}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 75}
+        - {x: -42, y: -80}
+        - {x: -37, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -71}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 75}
+        - {x: -42, y: -80}
+        - {x: -37, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37, y: 75}
+        - {x: -42, y: 71}
+        - {x: -42, y: -72}
+        - {x: -34, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 75}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 76}
+        - {x: -42, y: -79}
+        - {x: -14, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 76}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 76}
+        - {x: -42, y: 54}
+        - {x: -42, y: -54}
+        - {x: 1, y: -92}
+        - {x: 41, y: -92}
+        - {x: 41, y: 70}
+        - {x: 37, y: 76}
+      - - {x: -8, y: 34}
+        - {x: -7, y: 32}
+        - {x: -6, y: 32}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_23
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 81}
+        - {x: -42, y: -68}
+        - {x: -33, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 81}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -100}
+        - {x: 29, y: -97}
+        - {x: 24, y: -97}
+        - {x: 23, y: -100}
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_31
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42, y: 90}
+        - {x: -42, y: -68}
+        - {x: 1, y: -92}
+        - {x: 40, y: -92}
+        - {x: 40, y: 90}
+      - - {x: 4, y: 2}
+        - {x: 4, y: -2}
+        - {x: 6, y: -4}
+        - {x: 11, y: -2}
+        - {x: 11, y: 5}
+        - {x: 9, y: 7}
+        - {x: 8, y: 7}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 40, y: 90}
+        - {x: -29, y: 90}
+        - {x: -42, y: 37}
+        - {x: -42, y: -89}
+        - {x: 4, y: -89}
+        - {x: 42, y: 60}
+        - {x: 42, y: 84}
+      - - {x: -7, y: 49}
+        - {x: -6, y: 47}
+        - {x: -5, y: 47}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_33
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: -3}
+        - {x: 54, y: 100}
+        - {x: -18, y: 100}
+        - {x: -60, y: -59}
+        - {x: -60, y: -77}
+        - {x: -45, y: -89}
+        - {x: -2, y: -89}
+        - {x: 40, y: -80}
+        - {x: 46, y: -68}
+        - {x: 43, y: -56}
+      - - {x: 5, y: 60}
+        - {x: 6, y: 58}
+        - {x: 7, y: 58}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_34
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54, y: 97}
+        - {x: -13, y: 97}
+        - {x: -27, y: 56}
+        - {x: -31, y: 12}
+        - {x: -54, y: -47}
+        - {x: -54, y: -75}
+        - {x: -53, y: -84}
+        - {x: 24, y: -84}
+        - {x: 40, y: -77}
+        - {x: 54, y: -18}
+      - - {x: 5, y: 56}
+        - {x: 6, y: 54}
+        - {x: 7, y: 54}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 94}
+        - {x: -21, y: 91}
+        - {x: -42, y: -26}
+        - {x: -42, y: -84}
+        - {x: 49, y: -84}
+        - {x: 54, y: -52}
+        - {x: 54, y: 94}
+      - - {x: 5, y: 53}
+        - {x: 6, y: 51}
+        - {x: 7, y: 51}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_36
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 98}
+        - {x: -59, y: -47}
+        - {x: -59, y: -83}
+        - {x: -55, y: -85}
+        - {x: 33, y: -85}
+        - {x: 54, y: 4}
+        - {x: 54, y: 97}
+        - {x: 53, y: 98}
+      - - {x: 5, y: 57}
+        - {x: 6, y: 55}
+        - {x: 7, y: 55}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_37
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -57}
+        - {x: 53, y: 15}
+        - {x: 53, y: 100}
+        - {x: -28, y: 100}
+        - {x: -59, y: -46}
+        - {x: -59, y: -79}
+        - {x: -38, y: -86}
+        - {x: 8, y: -86}
+        - {x: 25, y: -85}
+        - {x: 39, y: -77}
+        - {x: 49, y: -61}
+      - - {x: 4, y: 62}
+        - {x: 5, y: 60}
+        - {x: 6, y: 60}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -79, y: 93}
+        - {x: -78, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -77, y: 95}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_40
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 100, y: 90}
+        - {x: 100, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    - name: workerAspritesheetpyxel-allsprites_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -100, y: 90}
+        - {x: 67, y: 90}
+        - {x: 69, y: 92}
+        - {x: 68, y: 95}
+        - {x: -100, y: 95}
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
