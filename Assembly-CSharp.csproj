@@ -52,9 +52,13 @@
      <Compile Include="Assets\Messages.cs" />
      <Compile Include="Assets\Planet.cs" />
      <Compile Include="Assets\PlayerTemp.cs" />
+     <Compile Include="Assets\PlayerValues.cs" />
+     <Compile Include="Assets\ProtocolsPanel.cs" />
      <Compile Include="Assets\Resources\Message.cs" />
      <Compile Include="Assets\Resources\MessageContainer.cs" />
      <Compile Include="Assets\Resources\MessageLoader.cs" />
+     <Compile Include="Assets\SceneSwitcher.cs" />
+     <Compile Include="Assets\StatusText.cs" />
      <None Include="Assets\Resources\Messages.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 5.4.0b17/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

@@ -4,22 +4,21 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-	public bool playersComputer = true;
+	//public bool playerValues.playersComputer = true;
 
 	//Global values
-	private int currentDay = 1;
+//	private int playerValues.currentDay = 1;
 
 	//Players Values
-	private bool playerMeoteorDefense = true;
-	private int playerPlanetTemp = 35;
+//	private bool playerValues.playerMeoteorDefense = true;
+//	private int playerValues.playerPlanetTemp = 35;
 
 
 	//Enemy Values
-	private bool enemyMeoteorDefense = true;
-	private int enemyPlanetTemp = 16;
+//	private bool playerValues.enemyMeoteorDefense = true;
+//	private int playerValues.enemyPlanetTemp = 16;
 
 
-	public Text statusText;
 	public Text whichComputerText;
 	public Text dayText;
 
@@ -30,66 +29,68 @@ public class GameController : MonoBehaviour {
 	private MessageLoader messageLoader;
 	private InfluenceProtocols influenceProtocols;
 	private Planet planet;
+	private PlayerValues playerValues;
+	private StatusText statusText;
 
 
 	// Use this for initialization
 	void Start () {
-		if (playersComputer) {
+		statusText = FindObjectOfType<StatusText> ().GetComponent<StatusText> ();
+		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
+		if (playerValues.playersComputer) {
 			whichComputerText.text = "Player's Computer";
 		}
-		statusText.text = "";
+		statusText.changeText("");
 		influenceProtocols = FindObjectOfType<InfluenceProtocols> ().GetComponent<InfluenceProtocols> ();
 		planet = FindObjectOfType<Planet> ().GetComponent<Planet> ();
-		influenceProtocolsPanel.SetActive(false);
-		dayText.text = "Day " + currentDay.ToString ();
+//		influenceProtocolsPanel.SetActive(false);
+		dayText.text = "Day " + playerValues.currentDay.ToString ();
 		climateControllers.SetActive (false);
 		messageLoader = FindObjectOfType<MessageLoader> ().GetComponent<MessageLoader> ();
 		messagePanel.SetActive (false);
 	}
 
 	public void SwitchMeoteorDefense(){
-		if (playersComputer) {
+		if (playerValues.playersComputer) {
 			//Update Player Values
-			if (playerMeoteorDefense) {
-				playerMeoteorDefense = false;
-				statusText.text = "Meteoric Defense Matrix Disabled";
+			if (playerValues.playerMeoteorDefense) {
+				playerValues.playerMeoteorDefense = false;
+				statusText.changeText("Meteoric Defense Matrix Disabled");
 			} else {
-				playerMeoteorDefense = true;
-				statusText.text = "Meteoric Defense Matrix Enabled";
+				playerValues.playerMeoteorDefense = true;
+				statusText.changeText("Meteoric Defense Matrix Enabled");
 			}
 		} else {
 			//Update Enemy Values
-			if (enemyMeoteorDefense) {
-				enemyMeoteorDefense = false;
-				statusText.text = "Meteoric Defense Matrix Disabled";
+			if (playerValues.enemyMeoteorDefense) {
+				playerValues.enemyMeoteorDefense = false;
+				statusText.changeText("Meteoric Defense Matrix Disabled");
 			} else {
-				enemyMeoteorDefense = true;
-				statusText.text = "Meteoric Defense Matrix Enabled";
+				playerValues.enemyMeoteorDefense = true;
+				statusText.changeText("Meteoric Defense Matrix Enabled");
 			}
 		}
 
 	}
 
 	public void CheckStatus(){
-		if (playersComputer) {
-			statusText.text = "Player defense grid is: " + playerMeoteorDefense.ToString () + "\nPlayer planet temp is: " + playerPlanetTemp.ToString();
+		if (playerValues.playersComputer) {
+		statusText.changeText("Player defense grid is: " + playerValues.playerMeoteorDefense.ToString () + "\nPlayer planet temp is: " + playerValues.playerPlanetTemp.ToString());
 		} else {
-			statusText.text = "Enemy defense grid is: " + enemyMeoteorDefense.ToString () + "\nEnemy planet temp is: " + enemyPlanetTemp.ToString();;
-
+		statusText.changeText("Enemy defense grid is: " + playerValues.enemyMeoteorDefense.ToString () + "\nEnemy planet temp is: " + playerValues.enemyPlanetTemp.ToString());
 		}
-
 	}
 
 	public void LogoutComputer(){
 		//Currently for debug purposes will simply switch between the computers
-		if (playersComputer) {
-			playersComputer = false;
+		if (playerValues.playersComputer) {
+			playerValues.playersComputer = false;
 			whichComputerText.text = "Other Guy's Computer";
 		} else {
-			playersComputer = true;
+			playerValues.playersComputer = true;
 			whichComputerText.text = "Player's Computer";
 		}
-		statusText.text = "";
+		statusText.changeText("");
 		planet.switchPlanet ();
 
 	}
@@ -112,28 +113,28 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void ClimateControlsIncrease(){
-		if (playersComputer) {
-			playerPlanetTemp++;
-			statusText.text = "Player planet temp is: " + playerPlanetTemp.ToString ();
+		if (playerValues.playersComputer) {
+			playerValues.playerPlanetTemp++;
+			statusText.changeText("Player planet temp is: " + playerValues.playerPlanetTemp.ToString ());
 		} else {
-			enemyPlanetTemp++;
-			statusText.text = "Enemy planet temp is: " + enemyPlanetTemp.ToString ();
+			playerValues.enemyPlanetTemp++;
+			statusText.changeText("Enemy planet temp is: " + playerValues.enemyPlanetTemp.ToString ());
 		}
 	}
 
 	public void ClimateControlsDecrease(){
-		if (playersComputer) {
-			playerPlanetTemp--;
-			statusText.text = "Player planet temp is: " + playerPlanetTemp.ToString ();
+		if (playerValues.playersComputer) {
+			playerValues.playerPlanetTemp--;
+			statusText.changeText("Player planet temp is: " + playerValues.playerPlanetTemp.ToString ());
 		} else {
-			enemyPlanetTemp--;
-			statusText.text = "Enemy planet temp is: " + enemyPlanetTemp.ToString ();
+			playerValues.enemyPlanetTemp--;
+			statusText.changeText("Enemy planet temp is: " + playerValues.enemyPlanetTemp.ToString ());
 		}
 	}
 
 	public void MessagesOpen(){
 		messagePanel.SetActive (true);
-		messageLoader.PopulateMessages (playersComputer, currentDay);
+		messageLoader.PopulateMessages (playerValues.playersComputer, playerValues.currentDay);
 	}
 
 	public void MessagesClose(){
@@ -148,40 +149,40 @@ public class GameController : MonoBehaviour {
 		
 
 		//Checks for win cases
-		if (currentDay == 1) {
-			if (!enemyMeoteorDefense) {
+		if (playerValues.currentDay == 1) {
+			if (!playerValues.enemyMeoteorDefense) {
 				gameSuccess ();
 			} else {
 				gameFailure ();
 			}
 		}
-		if (currentDay == 2) {
-			if (enemyPlanetTemp<13 && influenceProtocols.enemyAlignVerticals) {
+		if (playerValues.currentDay == 2) {
+			if (playerValues.enemyPlanetTemp<13 && influenceProtocols.enemyAlignVerticals) {
 				gameSuccess ();
 			} else {
 				gameFailure ();
 			}
 		}
 
-		if (currentDay == 3) {
+		if (playerValues.currentDay == 3) {
 			if (influenceProtocols.enemyTechnologicalSeeding && influenceProtocols.enemySynergize) {
 				gameSuccess ();
-				enemyPlanetTemp = 8;
+				playerValues.enemyPlanetTemp = 8;
 			} else {
 				gameFailure ();
 			}
 		}
 
-		if (currentDay == 4) {
-			if (enemyPlanetTemp>10 && influenceProtocols.enemyMassiveStructure) {
+		if (playerValues.currentDay == 4) {
+			if (playerValues.enemyPlanetTemp>10 && influenceProtocols.enemyMassiveStructure) {
 				gameSuccess ();
 			} else {
 				gameFailure ();
 			}
 		}
 
-		if (currentDay == 5) {
-			if (!enemyMeoteorDefense) {
+		if (playerValues.currentDay == 5) {
+			if (!playerValues.enemyMeoteorDefense) {
 				gameSuccess ();
 			} else {
 				gameFailure ();
@@ -190,17 +191,17 @@ public class GameController : MonoBehaviour {
 			
 
 
-		currentDay++;
-		dayText.text = "Day " + currentDay.ToString ();
+		playerValues.currentDay++;
+		dayText.text = "Day " + playerValues.currentDay.ToString ();
 	}
 
 	public void gameSuccess(){
-		statusText.text = "Success!";
+		statusText.changeText("Success!");
 
 	}
 
 	public void gameFailure(){
-		statusText.text = "Failure!";
+		statusText.changeText("Failure!");
 
 	}
 	

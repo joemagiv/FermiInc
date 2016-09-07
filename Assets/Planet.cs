@@ -8,16 +8,17 @@ public class Planet : MonoBehaviour {
 
 	private MeshRenderer meshRenderer;
 
-	private GameController gameController;
+	private PlayerValues playerValues;
 
 	// Use this for initialization
 	void Start () {
-		gameController = FindObjectOfType<GameController> ().GetComponent<GameController> ();
+		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
 		meshRenderer = GetComponent<MeshRenderer> ();
+		switchPlanet ();
 	}
 
 	public void switchPlanet(){
-		if (gameController.playersComputer) {
+		if (playerValues.playersComputer) {
 			meshRenderer.material.SetTexture ("_MainTex", otherPlanetTexture);
 		} else {
 			meshRenderer.material.SetTexture ("_MainTex", earthTexture);
