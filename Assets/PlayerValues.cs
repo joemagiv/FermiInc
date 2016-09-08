@@ -19,6 +19,12 @@ public class PlayerValues : MonoBehaviour {
 	public bool enemyMeoteorDefense = true;
 	public int enemyPlanetTemp = 16;
 
+	public bool enemyGotUp = false;
+	public float timeSinceLastBreak;
+	public float timeToBreak;
+	public float timeSinceEnemyGotUp;
+	public float timeToReturn;
+
 //	public Text statusText;
 
 
@@ -62,6 +68,20 @@ public class PlayerValues : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
+		if (!enemyGotUp) {
+			timeSinceLastBreak += Time.deltaTime;
+			if (timeSinceLastBreak > timeToBreak) {
+				enemyGotUp = true;
+				timeSinceLastBreak = 0;
+			}
+
+		} else {
+			timeSinceEnemyGotUp += Time.deltaTime;
+			if (timeSinceEnemyGotUp > timeToReturn) {
+				enemyGotUp = false;
+				timeSinceEnemyGotUp = 0;
+			}
+		}
+
 	}
 }
