@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
 
@@ -82,16 +83,8 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void LogoutComputer(){
-		//Currently for debug purposes will simply switch between the computers
-		if (playerValues.playersComputer) {
-			playerValues.playersComputer = false;
-			whichComputerText.text = "Other Guy's Computer";
-		} else {
-			playerValues.playersComputer = true;
-			whichComputerText.text = "Player's Computer";
-		}
-		statusText.changeText("");
-		planet.switchPlanet ();
+		
+		SceneManager.LoadScene (0);
 
 	}
 

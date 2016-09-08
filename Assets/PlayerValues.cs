@@ -25,6 +25,8 @@ public class PlayerValues : MonoBehaviour {
 	public float timeSinceEnemyGotUp;
 	public float timeToReturn;
 
+	public bool timersStarted = false;
+
 //	public Text statusText;
 
 
@@ -68,18 +70,21 @@ public class PlayerValues : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (!enemyGotUp) {
-			timeSinceLastBreak += Time.deltaTime;
-			if (timeSinceLastBreak > timeToBreak) {
-				enemyGotUp = true;
-				timeSinceLastBreak = 0;
-			}
+		if (timersStarted) {
+			
+			if (!enemyGotUp) {
+				timeSinceLastBreak += Time.deltaTime;
+				if (timeSinceLastBreak > timeToBreak) {
+					enemyGotUp = true;
+					timeSinceLastBreak = 0;
+				}
 
-		} else {
-			timeSinceEnemyGotUp += Time.deltaTime;
-			if (timeSinceEnemyGotUp > timeToReturn) {
-				enemyGotUp = false;
-				timeSinceEnemyGotUp = 0;
+			} else {
+				timeSinceEnemyGotUp += Time.deltaTime;
+				if (timeSinceEnemyGotUp > timeToReturn) {
+					enemyGotUp = false;
+					timeSinceEnemyGotUp = 0;
+				}
 			}
 		}
 

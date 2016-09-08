@@ -16,20 +16,37 @@ public class Player : MonoBehaviour {
 		animator = GetComponent<Animator> ();
 		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
 
+		if (!playerValues.playersComputer) {
+			animator.SetTrigger ("AlreadyAtEnemyDesk");
+		}
 	
 	}
 
-	public void detectMouseOver(){
-		Debug.Log ("I got a mouse over event");
-	}
+
 
 	public void walkToEnemyDesk(){
-		animator.SetTrigger ("GoToEnemyDesk");
-		sittingAtPlayerDesk = false;
+		if (playerValues.enemyGotUp) {
+			if (playerValues.playersComputer) {
+				animator.SetTrigger ("GoToEnemyDesk");
+				sittingAtPlayerDesk = false;
+			}
+		}
+	}
+
+	public void walkToPlayerDesk(){
+		if (!playerValues.playersComputer) {
+			animator.SetTrigger ("GoToPlayerDesk");
+			sittingAtPlayerDesk = true;
+		}
 	}
 
 	public void switchToEnemyDesk(){
 		playerValues.playersComputer = false;
+		SceneManager.LoadScene (1);
+	}
+
+	public void switchToPlayerDesk(){
+		playerValues.playersComputer = true;
 		SceneManager.LoadScene (1);
 	}
 	

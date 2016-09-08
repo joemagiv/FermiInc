@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{2930022F-1DF1-A0B8-005A-73EC4B153446}") = "Fermi Inc", "Assembly-CSharp.csproj", "{B22852FC-9DD7-9011-C829-79A03C40EDFF}"
 EndProject
+Project("{2930022F-1DF1-A0B8-005A-73EC4B153446}") = "Fermi Inc", "Assembly-CSharp-Editor.csproj", "{BF4C3152-C587-F2A8-8615-FD1DE5161823}"
+EndProject
+Project("{2930022F-1DF1-A0B8-005A-73EC4B153446}") = "Fermi Inc", "Assembly-UnityScript.unityproj", "{1DC16B24-DF39-51AE-4E50-C61867B4209C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{B22852FC-9DD7-9011-C829-79A03C40EDFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B22852FC-9DD7-9011-C829-79A03C40EDFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B22852FC-9DD7-9011-C829-79A03C40EDFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF4C3152-C587-F2A8-8615-FD1DE5161823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF4C3152-C587-F2A8-8615-FD1DE5161823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF4C3152-C587-F2A8-8615-FD1DE5161823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF4C3152-C587-F2A8-8615-FD1DE5161823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DC16B24-DF39-51AE-4E50-C61867B4209C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC16B24-DF39-51AE-4E50-C61867B4209C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC16B24-DF39-51AE-4E50-C61867B4209C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC16B24-DF39-51AE-4E50-C61867B4209C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

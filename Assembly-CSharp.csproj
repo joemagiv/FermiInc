@@ -46,6 +46,72 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\BossTemp.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Chat Mapper\ChatMapperTools.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Sequencer Commands\SequencerCommandLoadLevel.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Sequencer Commands\SequencerCommandSetTimeout.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Bark UI\UnityUIBarkUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\Animated Portraits\AnimatedPortrait.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\Animated Portraits\UseAnimatedPortraits.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\OverrideUnityUIDialogueControls.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIAlertControls.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIBarkSubtitleDialogueUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIDialogueControls.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIDialogueUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIQTEControls.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIResponseButton.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIResponseMenuControls.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUIRoot.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUISubtitleControls.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUITextFieldUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Dialogue UI\UnityUITimer.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\LocalizeUIText.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\UnityUIColorText.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\UnityUIContinueButtonFastForward.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\UnityUIIgnorePauseCodes.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\UnityUIScrollbarEnabler.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\UnityUITypewriterEffect.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Effects\UpdateLocalizedUITexts.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestGroupTemplate.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestLogWindow.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestTemplate.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestTemplateAlternateDescriptions.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestTitle.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestTrackTemplate.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Quest Log Window\UnityUIQuestTracker.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Selector\UnityUISelectorDisplay.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Selector\UnityUISelectorElements.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Selector\UsableUnityUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Tools\UIButtonKeyTrigger.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Tools\UIShowHideController.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\UI\Tools\UITools.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\AlwaysFaceCamera.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\ConversationLogger.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\DialogueSystemEvents.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\DieOnTakeDamage.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\ExtraDatabases.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\From Unity3D Community\SmoothCameraWithBumper.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\IncrementOnDestroy.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\NavigateOnMouseClick.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\PauseGameOnConversation.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\PersistentDestructible.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\ProximitySelector.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\QuestStateDispatcher.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\QuestStateIndicator.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\QuestStateListener.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\QuestTracker.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\RangeTrigger.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\SelectionDelegates.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\Selector.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\SelectorFollowTarget.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\SimpleController.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Supplemental\Utility\Usable.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\Aurora\TemplateNWScript.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\PersistentDataTemplate.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\SequencerCommandTemplate.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateBarkUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateDialogueUI.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateQuestLogWindow.cs" />
+     <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateTextFieldUI.cs" />
      <Compile Include="Assets\Enemy.cs" />
      <Compile Include="Assets\GameController.cs" />
      <Compile Include="Assets\InfluenceProtocols.cs" />
@@ -62,7 +128,32 @@
      <Compile Include="Assets\Resources\MessageLoader.cs" />
      <Compile Include="Assets\SceneSwitcher.cs" />
      <Compile Include="Assets\StatusText.cs" />
+     <None Include="Assets\Dialogue System\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\iOS\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Computer\Bitwise Font\!license.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Computer\Typing.txt" />
+     <None Include="Assets\Dialogue System\DLLs\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Circle\Textures\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\_README.txt" />
      <None Include="Assets\Resources\Messages.xml" />
+     <None Include="Assets\Dialogue System\Prefabs\Unity UI Prefabs\Speech Bubble\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Audio\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Unity UI Prefabs\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\iOS\link.xml" />
+     <None Include="Assets\Dialogue System\Documentation\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Necromancer\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\Dialogue System\Scripts\Supplemental\Utility\_README.txt" />
+     <None Include="Assets\Dialogue System\Scripts\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Wheel\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Unity UI Prefabs\Mobile\_IMPORTANT_README.txt" />
+     <None Include="Assets\Dialogue System\Scripts\Supplemental\UI\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Fonts\Orbitron\SIL Open Font License.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\Legacy Unity GUI Prefabs\Shared Textures\_README.txt" />
+     <None Include="Assets\Dialogue System\Scripts\Shaders\LinesColoredBlended.shader" />
+     <None Include="Assets\Dialogue System\Prefabs\Unity UI Prefabs\Unity UI Assets\_README.txt" />
+     <None Include="Assets\Dialogue System\Prefabs\_README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -71,6 +162,12 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="DialogueSystem">
+ <HintPath>C:/Users/mafia/Documents/Unity Projects/Fermi Inc/Assets/Dialogue System/DLLs/DialogueSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="LuaInterpreter">
+ <HintPath>C:/Users/mafia/Documents/Unity Projects/Fermi Inc/Assets/Dialogue System/DLLs/LuaInterpreter.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

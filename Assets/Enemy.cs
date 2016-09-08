@@ -5,12 +5,20 @@ public class Enemy : MonoBehaviour {
 
 	private PlayerValues playerValues;
 	private Animator animator;
-	private bool enemyGotUp = false;
+	public bool enemyGotUp = false;
 
 	// Use this for initialization
 	void Start () {
 		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
 		animator = GetComponent<Animator> ();
+		if (playerValues.enemyGotUp) {
+			enemyGotUp = true;
+		}
+
+
+		if (enemyGotUp) {
+			animator.SetTrigger ("AlreadyOffscreen");
+		}
 	
 	}
 	
@@ -18,8 +26,10 @@ public class Enemy : MonoBehaviour {
 	void Update () {
 		if (playerValues.enemyGotUp) {
 			if (!enemyGotUp) {
-				animator.SetTrigger ("EnemyLeaves");
-				enemyGotUp = true;
+				if (playerValues.playersComputer) {
+					animator.SetTrigger ("EnemyLeaves");
+					enemyGotUp = true;
+				}
 			}
 		} else {
 			if (enemyGotUp) {
