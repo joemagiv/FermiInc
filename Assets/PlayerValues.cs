@@ -27,6 +27,10 @@ public class PlayerValues : MonoBehaviour {
 
 	public bool timersStarted = false;
 
+	public bool gameOver = false;
+
+	public bool gameFirstStart = true;
+
 //	public Text statusText;
 
 
@@ -68,6 +72,7 @@ public class PlayerValues : MonoBehaviour {
 		}
 	}
 
+
 	// Update is called once per frame
 	void Update () {
 		if (timersStarted) {
@@ -82,8 +87,15 @@ public class PlayerValues : MonoBehaviour {
 			} else {
 				timeSinceEnemyGotUp += Time.deltaTime;
 				if (timeSinceEnemyGotUp > timeToReturn) {
-					enemyGotUp = false;
-					timeSinceEnemyGotUp = 0;
+					if (!playersComputer) {
+						if (!gameOver) {
+							SceneManager.LoadScene (2);
+							gameOver = true;
+						}
+					} else {
+						enemyGotUp = false;
+						timeSinceEnemyGotUp = 0;
+					}
 				}
 			}
 		}

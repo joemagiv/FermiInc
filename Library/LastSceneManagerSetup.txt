@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/testingConversation.unity
+- path: Assets/_Scenes/scene00-office.unity
   isLoaded: 1
   isActive: 1
