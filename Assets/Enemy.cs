@@ -11,15 +11,23 @@ public class Enemy : MonoBehaviour {
 	void Start () {
 		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
 		animator = GetComponent<Animator> ();
-		if (playerValues.enemyGotUp) {
-			enemyGotUp = true;
+		if (!playerValues.dayStart) {
+			if (playerValues.enemyGotUp) {
+				enemyGotUp = true;
+			}
+			if (enemyGotUp) {
+				animator.SetTrigger ("AlreadyOffscreen");
+			}
+		} else {
+			playerValues.dayStart = false;
+			if (playerValues.enemyGotUp) {
+				//animator.SetTrigger ("AlreadyAtDesk");
+				enemyGotUp = false;
+				playerValues.enemyGotUp = false;
+			}
+			playerValues.timeSinceLastBreak = 0;
+			playerValues.timeSinceEnemyGotUp = 0;
 		}
-
-
-		if (enemyGotUp) {
-			animator.SetTrigger ("AlreadyOffscreen");
-		}
-	
 	}
 	
 	// Update is called once per frame

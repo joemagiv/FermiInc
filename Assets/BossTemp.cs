@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using PixelCrushers.DialogueSystem;
 
 public class BossTemp : MonoBehaviour {
@@ -34,6 +35,10 @@ public class BossTemp : MonoBehaviour {
 
 	public void startConversation(){
 		DialogueManager.StartConversation ("OfficeConversation");
+	}
+
+	public void MovePlayerToComputer(){
+		SceneManager.LoadScene (2);
 	}
 
 	

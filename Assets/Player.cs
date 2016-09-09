@@ -42,12 +42,12 @@ public class Player : MonoBehaviour {
 
 	public void switchToEnemyDesk(){
 		playerValues.playersComputer = false;
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene (2);
 	}
 
 	public void switchToPlayerDesk(){
 		playerValues.playersComputer = true;
-		SceneManager.LoadScene (1);
+		SceneManager.LoadScene (2);
 	}
 	
 	// Update is called once per frame

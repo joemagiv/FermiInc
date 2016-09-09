@@ -33,13 +33,15 @@ public class GameController : MonoBehaviour {
 	private PlayerValues playerValues;
 	private StatusText statusText;
 
+	public Button clockOutButton;
+
 
 	// Use this for initialization
 	void Start () {
 		statusText = FindObjectOfType<StatusText> ().GetComponent<StatusText> ();
 		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
-		if (playerValues.playersComputer) {
-			whichComputerText.text = "Player's Computer";
+		if (!playerValues.playersComputer) {
+			clockOutButton.gameObject.SetActive (false);
 		}
 		statusText.changeText("");
 		influenceProtocols = FindObjectOfType<InfluenceProtocols> ().GetComponent<InfluenceProtocols> ();
@@ -49,6 +51,8 @@ public class GameController : MonoBehaviour {
 		climateControllers.SetActive (false);
 		messageLoader = FindObjectOfType<MessageLoader> ().GetComponent<MessageLoader> ();
 		messagePanel.SetActive (false);
+
+	
 	}
 
 	public void SwitchMeoteorDefense(){
@@ -83,8 +87,12 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void LogoutComputer(){
-		
-		SceneManager.LoadScene (0);
+		if (playerValues.gameFirstStart) {
+			playerValues.gameFirstStart = false;
+			playerValues.timersStarted = true;
+		}
+
+		SceneManager.LoadScene (1);
 
 	}
 
@@ -184,17 +192,17 @@ public class GameController : MonoBehaviour {
 			
 
 
-		playerValues.currentDay++;
 		dayText.text = "Day " + playerValues.currentDay.ToString ();
 	}
 
 	public void gameSuccess(){
-		statusText.changeText("Success!");
+		playerValues.currentDay++;
+		SceneManager.LoadScene (5);
 
 	}
 
 	public void gameFailure(){
-		statusText.changeText("Failure!");
+		SceneManager.LoadScene (4);
 
 	}
 	

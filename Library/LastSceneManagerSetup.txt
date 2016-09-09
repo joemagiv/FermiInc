@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/_Scenes/scene00-office.unity
+- path: Assets/_Scenes/scene03-gameOver.unity
   isLoaded: 1
   isActive: 1

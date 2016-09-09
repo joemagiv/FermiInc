@@ -113,8 +113,11 @@
      <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateQuestLogWindow.cs" />
      <Compile Include="Assets\Dialogue System\Scripts\Templates\TemplateTextFieldUI.cs" />
      <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\EnemySpecial.cs" />
      <Compile Include="Assets\GameController.cs" />
+     <Compile Include="Assets\GameOver.cs" />
      <Compile Include="Assets\InfluenceProtocols.cs" />
+     <Compile Include="Assets\InterScene.cs" />
      <Compile Include="Assets\MessageObject.cs" />
      <Compile Include="Assets\Messages.cs" />
      <Compile Include="Assets\OfficeController.cs" />
@@ -126,7 +129,6 @@
      <Compile Include="Assets\Resources\Message.cs" />
      <Compile Include="Assets\Resources\MessageContainer.cs" />
      <Compile Include="Assets\Resources\MessageLoader.cs" />
-     <Compile Include="Assets\SceneSwitcher.cs" />
      <Compile Include="Assets\StatusText.cs" />
      <None Include="Assets\Dialogue System\_README.txt" />
      <None Include="Assets\Dialogue System\Prefabs\iOS\_README.txt" />

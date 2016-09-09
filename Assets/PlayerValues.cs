@@ -31,6 +31,8 @@ public class PlayerValues : MonoBehaviour {
 
 	public bool gameFirstStart = true;
 
+	public bool dayStart = true;
+
 //	public Text statusText;
 
 
@@ -42,14 +44,14 @@ public class PlayerValues : MonoBehaviour {
 	}
 
 
-	public void SwitchScenesDebug(){
-		Scene scene = SceneManager.GetActiveScene ();
-		if (scene.buildIndex == 0) {
-			SceneManager.LoadScene (1);
-		} else {
-			SceneManager.LoadScene (0);
-		}
-	}
+//	public void SwitchScenesDebug(){
+//		Scene scene = SceneManager.GetActiveScene ();
+//		if (scene.buildIndex == 0) {
+//			SceneManager.LoadScene (1);
+//		} else {
+//			SceneManager.LoadScene (0);
+//		}
+//	}
 		
 
 	private static bool created = false;
@@ -89,7 +91,7 @@ public class PlayerValues : MonoBehaviour {
 				if (timeSinceEnemyGotUp > timeToReturn) {
 					if (!playersComputer) {
 						if (!gameOver) {
-							SceneManager.LoadScene (2);
+							SceneManager.LoadScene (3);
 							gameOver = true;
 						}
 					} else {
