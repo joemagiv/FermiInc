@@ -33,6 +33,10 @@ public class PlayerValues : MonoBehaviour {
 
 	public bool dayStart = true;
 
+	public bool gameWon = false;
+
+	public bool interScene = false;
+
 //	public Text statusText;
 
 
@@ -64,42 +68,47 @@ public class PlayerValues : MonoBehaviour {
 			//destroys clones
 			Destroy (this.gameObject);
 		}
-		SceneManager.sceneLoaded += OnSceneLoaded;
+//		SceneManager.sceneLoaded += OnSceneLoaded;
 	}
 
 
-	void OnSceneLoaded(Scene scene, LoadSceneMode m){
-		Debug.Log ("Level Load detected");
-		if (scene.buildIndex == 1) {
-		}
-	}
-
+//	void OnSceneLoaded(Scene scene, LoadSceneMode m){
+//		Debug.Log ("Level Load detected");
+//		if (scene.buildIndex == 1) {
+//		}
+//	}
+//
 
 	// Update is called once per frame
 	void Update () {
 		if (timersStarted) {
-			
-			if (!enemyGotUp) {
-				timeSinceLastBreak += Time.deltaTime;
-				if (timeSinceLastBreak > timeToBreak) {
-					enemyGotUp = true;
-					timeSinceLastBreak = 0;
-				}
-
-			} else {
-				timeSinceEnemyGotUp += Time.deltaTime;
-				if (timeSinceEnemyGotUp > timeToReturn) {
-					if (!playersComputer) {
-						if (!gameOver) {
-							SceneManager.LoadScene (3);
-							gameOver = true;
+			if (!gameOver) {
+				if (!enemyGotUp) {
+					timeSinceLastBreak += Time.deltaTime;
+					if (timeSinceLastBreak > timeToBreak) {
+						enemyGotUp = true;
+						timeSinceLastBreak = 0;
+					}
+				} else {
+				
+					timeSinceEnemyGotUp += Time.deltaTime;
+					if (timeSinceEnemyGotUp > timeToReturn) {
+						if (!playersComputer) {
+							if (!gameOver) {
+								SceneManager.LoadScene (3);
+								gameOver = true;
+							}
+						} else {
+							enemyGotUp = false;
+							timeSinceEnemyGotUp = 0;
 						}
-					} else {
-						enemyGotUp = false;
-						timeSinceEnemyGotUp = 0;
 					}
 				}
 			}
+		}
+
+		if (Input.GetKeyDown(KeyCode.Escape)){
+			Application.Quit();
 		}
 
 	}

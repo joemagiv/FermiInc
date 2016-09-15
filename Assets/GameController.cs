@@ -20,8 +20,6 @@ public class GameController : MonoBehaviour {
 //	private int playerValues.enemyPlanetTemp = 16;
 
 
-	public Text whichComputerText;
-	public Text dayText;
 
 	public GameObject influenceProtocolsPanel;
 	public GameObject climateControllers;
@@ -35,6 +33,10 @@ public class GameController : MonoBehaviour {
 
 	public Button clockOutButton;
 
+	public AudioSource sfxAudioSource;
+
+	public AudioClip[] computerSound;
+
 
 	// Use this for initialization
 	void Start () {
@@ -47,12 +49,12 @@ public class GameController : MonoBehaviour {
 		influenceProtocols = FindObjectOfType<InfluenceProtocols> ().GetComponent<InfluenceProtocols> ();
 		planet = FindObjectOfType<Planet> ().GetComponent<Planet> ();
 //		influenceProtocolsPanel.SetActive(false);
-		dayText.text = "Day " + playerValues.currentDay.ToString ();
+//		dayText.text = "Day " + playerValues.currentDay.ToString ();
 		climateControllers.SetActive (false);
 		messageLoader = FindObjectOfType<MessageLoader> ().GetComponent<MessageLoader> ();
 		messagePanel.SetActive (false);
 
-	
+		playSoundEffect (1);
 	}
 
 	public void SwitchMeoteorDefense(){
@@ -75,15 +77,18 @@ public class GameController : MonoBehaviour {
 				statusText.changeText("Meteoric Defense Matrix Enabled");
 			}
 		}
+		playSoundEffect (1);
 
 	}
 
 	public void CheckStatus(){
 		if (playerValues.playersComputer) {
-		statusText.changeText("Player defense grid is: " + playerValues.playerMeoteorDefense.ToString () + "\nPlayer planet temp is: " + playerValues.playerPlanetTemp.ToString());
+		statusText.changeText("6462 defense grid is: " + playerValues.playerMeoteorDefense.ToString () + "\n6462 planet temp is: " + playerValues.playerPlanetTemp.ToString());
 		} else {
-		statusText.changeText("Enemy defense grid is: " + playerValues.enemyMeoteorDefense.ToString () + "\nEnemy planet temp is: " + playerValues.enemyPlanetTemp.ToString());
+		statusText.changeText("ZZ9-42 defense grid is: " + playerValues.enemyMeoteorDefense.ToString () + "\nZZ9-42 planet temp is: " + playerValues.enemyPlanetTemp.ToString());
 		}
+		playSoundEffect (1);
+
 	}
 
 	public void LogoutComputer(){
@@ -91,6 +96,7 @@ public class GameController : MonoBehaviour {
 			playerValues.gameFirstStart = false;
 			playerValues.timersStarted = true;
 		}
+		playSoundEffect (2);
 
 		SceneManager.LoadScene (1);
 
@@ -98,11 +104,13 @@ public class GameController : MonoBehaviour {
 
 	public void InfluenceProtocolsOpen(){
 		influenceProtocolsPanel.SetActive(true);
+		playSoundEffect (0);
 
 	}
 
 	public void InfluenceProtocolsClose(){
 		influenceProtocolsPanel.SetActive(false);
+		playSoundEffect (0);
 	}
 
 	public void ClimateControlsSwitch(){
@@ -111,31 +119,34 @@ public class GameController : MonoBehaviour {
 		} else {
 			climateControllers.SetActive (true);
 		}
+		playSoundEffect (1);
+
 	}
 
 	public void ClimateControlsIncrease(){
 		if (playerValues.playersComputer) {
 			playerValues.playerPlanetTemp++;
-			statusText.changeText("Player planet temp is: " + playerValues.playerPlanetTemp.ToString ());
+			statusText.changeText("6462 planet temp is: " + playerValues.playerPlanetTemp.ToString ());
 		} else {
 			playerValues.enemyPlanetTemp++;
-			statusText.changeText("Enemy planet temp is: " + playerValues.enemyPlanetTemp.ToString ());
+			statusText.changeText("ZZ9-42 planet temp is: " + playerValues.enemyPlanetTemp.ToString ());
 		}
 	}
 
 	public void ClimateControlsDecrease(){
 		if (playerValues.playersComputer) {
 			playerValues.playerPlanetTemp--;
-			statusText.changeText("Player planet temp is: " + playerValues.playerPlanetTemp.ToString ());
+			statusText.changeText("6462 planet temp is: " + playerValues.playerPlanetTemp.ToString ());
 		} else {
 			playerValues.enemyPlanetTemp--;
-			statusText.changeText("Enemy planet temp is: " + playerValues.enemyPlanetTemp.ToString ());
+			statusText.changeText("ZZ9-42 planet temp is: " + playerValues.enemyPlanetTemp.ToString ());
 		}
 	}
 
 	public void MessagesOpen(){
 		messagePanel.SetActive (true);
 		messageLoader.PopulateMessages (playerValues.playersComputer, playerValues.currentDay);
+		playSoundEffect (0);
 	}
 
 	public void MessagesClose(){
@@ -144,24 +155,33 @@ public class GameController : MonoBehaviour {
 			Destroy (thisMessage.gameObject);
 		}
 		messagePanel.SetActive (false);
+		playSoundEffect (0);
 	}
 
 	public void AdvanceDay(){
-		
+		playSoundEffect (2);
+
+		Debug.Log ("Checking for win in day " + playerValues.currentDay);
 
 		//Checks for win cases
 		if (playerValues.currentDay == 1) {
+			Debug.Log ("End of Day 1: enemyMeteor is " + playerValues.enemyMeoteorDefense);
 			if (!playerValues.enemyMeoteorDefense) {
+				Debug.Log ("Win");
 				gameSuccess ();
 			} else {
 				gameFailure ();
+				Debug.Log ("Fail 1");
 			}
 		}
+
 		if (playerValues.currentDay == 2) {
 			if (playerValues.enemyPlanetTemp<13 && influenceProtocols.enemyAlignVerticals) {
 				gameSuccess ();
 			} else {
 				gameFailure ();
+				Debug.Log ("Fail 2");
+
 			}
 		}
 
@@ -171,6 +191,8 @@ public class GameController : MonoBehaviour {
 				playerValues.enemyPlanetTemp = 8;
 			} else {
 				gameFailure ();
+				Debug.Log ("Fail 3");
+
 			}
 		}
 
@@ -179,31 +201,69 @@ public class GameController : MonoBehaviour {
 				gameSuccess ();
 			} else {
 				gameFailure ();
+				Debug.Log ("Fail 4");
+
 			}
 		}
 
 		if (playerValues.currentDay == 5) {
-			if (!playerValues.enemyMeoteorDefense) {
+			if (influenceProtocols.enemyResourceReallocation && influenceProtocols.enemyIncreaseScalability) {
 				gameSuccess ();
 			} else {
 				gameFailure ();
+				Debug.Log ("Fail 5");
+
+			}
+		}
+
+		if (playerValues.currentDay == 6) {
+			if (influenceProtocols.enemyCivilizationConsolidation && !influenceProtocols.enemyAlignVerticals && influenceProtocols.enemyLeverageAssets) {
+				gameSuccess ();
+			} else {
+				gameFailure ();
+				Debug.Log ("Fail 6");
+
+			}
+		}
+
+		if (playerValues.currentDay == 7) {
+			if (playerValues.enemyPlanetTemp > 27 && influenceProtocols.enemyMassiveStructure && !influenceProtocols.enemySynergize) {
+				gameOverVictory ();
+			} else {
+				//Replace with total game win
+				gameFailure ();
+				Debug.Log ("Fail 7");
+
 			}
 		}
 			
 
 
-		dayText.text = "Day " + playerValues.currentDay.ToString ();
 	}
 
 	public void gameSuccess(){
-		playerValues.currentDay++;
-		SceneManager.LoadScene (5);
+		Debug.Log ("Game Success");
+		playerValues.interScene = true;
+		SceneManager.LoadScene ("scene04-interScene");
 
 	}
 
-	public void gameFailure(){
-		SceneManager.LoadScene (4);
+	public void gameOverVictory(){
+		playerValues.gameWon = true;
+		SceneManager.LoadScene (7);
+	}
+		
 
+	public void gameFailure(){
+		Debug.Log ("Game Failure");
+		playerValues.gameOver = true;
+		SceneManager.LoadScene (6);
+
+	}
+
+	private void playSoundEffect(int i){
+		sfxAudioSource.clip = computerSound [i];
+		sfxAudioSource.Play ();
 	}
 	
 	// Update is called once per frame

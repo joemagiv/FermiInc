@@ -37,6 +37,10 @@ public class Player : MonoBehaviour {
 		if (!playerValues.playersComputer) {
 			animator.SetTrigger ("GoToPlayerDesk");
 			sittingAtPlayerDesk = true;
+		} else {
+			if (playerValues.timersStarted) {
+				SceneManager.LoadScene (2);
+			}
 		}
 	}
 

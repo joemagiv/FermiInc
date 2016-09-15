@@ -11,13 +11,14 @@ public class BossTemp : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		playerAnimator = FindObjectOfType<PlayerTemp> ().GetComponentInChildren<Animator> ();
+		playerAnimator = FindObjectOfType<Player> ().GetComponentInChildren<Animator> ();
 		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
 		bossAnimator = GetComponent<Animator> ();
 
-		if (playerValues.gameFirstStart) {
+		if (playerValues.gameFirstStart || playerValues.gameOver) {
 			Invoke ("BossWalksIn", 3);
 		}
+
 
 	}
 
@@ -34,7 +35,11 @@ public class BossTemp : MonoBehaviour {
 		
 
 	public void startConversation(){
-		DialogueManager.StartConversation ("OfficeConversation");
+		if (!playerValues.gameOver) {
+			DialogueManager.StartConversation ("OfficeConversation");
+		} else {
+			DialogueManager.StartConversation ("SettingsFailure");
+		}
 	}
 
 	public void MovePlayerToComputer(){

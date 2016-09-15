@@ -46,7 +46,7 @@ Don't be afraid to ask for help from your betters! Keep that in mind!
 We're going to have to have a house meeting, don't flake like last time or I'm pouring your "special occasion" wine down the drain.
 	  -Paul
 	  </BodyString>
-      <DayAdded>1</DayAdded>
+      <DayAdded>2</DayAdded>
       <PlayerEmail>true</PlayerEmail>
     </Message>
     <Message ID="03">
@@ -129,11 +129,9 @@ Be sure to submit your registration before 4256/45 for early bird rates! See you
       <FromString>Supervisor Flark</FromString>
       <DateString>4125/45</DateString>
       <SubjectString>Daily Report</SubjectString>
-	  <BodyString> Heyyy Les,
-Soooo, bad news bud, seems like the Meteoric Defense Matrix got disabled and the planet got hit pretty bad. The dust kicked up from the impact has covered the planet in a layer of dust that basically killed everything.
+	  <BodyString> Heyyy Les, Soooo, bad news bud, seems like the Meteoric Defense Matrix got disabled and the planet got hit pretty bad. The dust kicked up from the impact has covered the planet in a layer of dust that basically killed everything.
 Life scores way down, resources took a hit, the environment is mostly fine and should return to normal as long as temperatures hold steady above 13frz.
-	  -Supervisor Flark
-	  Planet ZZ9-42 ext. 52752
+	  -Supervisor Flark - Planet ZZ9-42 ext. 52752
 	  </BodyString>
       <DayAdded>2</DayAdded>
       <PlayerEmail>false</PlayerEmail>
@@ -142,8 +140,7 @@ Life scores way down, resources took a hit, the environment is mostly fine and s
       <FromString>Jay Byrzburg</FromString>
       <DateString>4125/45</DateString>
       <SubjectString>Tough Luck</SubjectString>
-      <BodyString>Hey rockstar,
-Heard about your bad luck with the asteroid, or was it a meteor? I can never keep those two straight.
+      <BodyString>Hey rockstar, heard about your bad luck with the asteroid, or was it a meteor? I can never keep those two straight.
 I AM worried that this sort of event can sometimes kick start a civilization, make sure your verticals are still out of alignment and we shouldn't have any problem.
 Anyways just wanted to say that everybody has an off day and I'm sure this won't reflect too poorly on your semi-quarterly review.
 	  -Jay "The burg" Byrzburg x.3456
@@ -229,12 +226,9 @@ Thaaanks.
       <FromString>Supervisor Flark</FromString>
       <DateString>4126/45</DateString>
       <SubjectString>Daily Report</SubjectString>
-      <BodyString>Hey boss,
-Things are getting worse, much worse. So the temperature dropped suddenly and there was a brief ice age.
-The ice age cleared but here's the real bad news... I hope you're sitting down for this, the planet has got apes now. 
+      <BodyString>Hey boss, Things are getting worse, much worse. So the temperature dropped suddenly and there was a brief ice age. The ice age cleared but here's the real bad news... I hope you're sitting down for this, the planet has got apes now. 
 We're going to need to stabilize this before they start understanding tools, they're not ready for it. Be sure to cancel any and all seeding protocols. 
-	  -Supervisor Flark
-	  Planet ZZ9-42 ext. 52752
+	  -Supervisor Flark - Planet ZZ9-42 ext. 52752
 	  </BodyString>
       <DayAdded>3</DayAdded>
       <PlayerEmail>false</PlayerEmail>
@@ -336,12 +330,8 @@ This is a Class A civilization jump forward. I'm going to have to report this. I
      <FromString>Jane Parzkek</FromString>
       <DateString>4127/45</DateString>
       <SubjectString>CivSpec Analyst</SubjectString>
-      <BodyString>Greetings Mr. Izfizz,
-	  I'm Jane Parzkek the specially assigned Civilization Specialist. I was assigned by your Planetary Supervisor to provide support.
-Seems like you've really made a mess of this haven't you Mr. Izfizz? Well I'm going to initiate an immediate freeze off.
-This should kill the humanoids and reduce the resource score, but we can't afford to take any chances. Temperature must maintain below 10frz to ensure total burnoff. 
-	  -Jane Parzkek
-	  CivSpec Class 2 x.4652
+      <BodyString>Greetings Mr. Izfizz, I'm Jane Parzkek the specially assigned Civilization Specialist. I was assigned by your Planetary Supervisor to provide support. Seems like you've really made a mess of this haven't you Mr. Izfizz? Well I'm going to initiate an immediate freeze off.This should kill the humanoids and reduce the resource score, but we can't afford to take any chances. Temperature must maintain below 10frz to ensure total burnoff. 
+	  -Jane Parzkek - CivSpec Class 2 x.4652
 	  </BodyString>
       <DayAdded>4</DayAdded>
       <PlayerEmail>false</PlayerEmail>
@@ -360,8 +350,18 @@ If you would like to resume contributions at your previous rate please reach out
       <PlayerEmail>false</PlayerEmail>
     </Message>
 	<Message ID="29">
+     <FromString>3#%#87-8]</FromString>
+      <DateString>4128/45</DateString>
+      <SubjectString>)(#%*O.p.e.n.M3$!@</SubjectString>
+      <BodyString>Hey there, you've been doing great! Hope you're enjoying the praise you've been getting. We're about to kick this thing into high gear.
+	  Civilization is getting out of control on this planet, you're going to need to slow it down so we don't raise any suspicions. Try reallocating some resources. Keep it up!
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="30">
      <FromString>Supervisor Garn</FromString>
-      <DateString>4126/45</DateString>
+      <DateString>4128/45</DateString>
       <SubjectString>Daily Report</SubjectString>
       <BodyString>Greetings Manager.
 Resource numbers rose sharply, dipped, and then rose again. Life signs are starting to show stronger than before, we could be looking at algae very shortly. Fingers Crossed
@@ -371,17 +371,231 @@ Resource numbers rose sharply, dipped, and then rose again. Life signs are start
       <DayAdded>5</DayAdded>
       <PlayerEmail>true</PlayerEmail>
     </Message>
-	<Message ID="30">
-     <FromString>Supervisor Garn</FromString>
-      <DateString>4126/45</DateString>
-      <SubjectString>Daily Report</SubjectString>
-      <BodyString>Greetings Manager.
-Resource numbers rose sharply, dipped, and then rose again. Life signs are starting to show stronger than before, we could be looking at algae very shortly. Fingers Crossed
-	  -Planetary Supervisor Dan Garn
-	  Planet 6462 ext. 1245
+	<Message ID="31">
+      <FromString>3#%#87-8]</FromString>
+      <DateString>4128/45</DateString>
+      <SubjectString>)(#%*O.p.e.n.M3$!@</SubjectString>
+      <BodyString>Hopefully this gets through the internal encryption. I know your planet is on the outs and you probably hate that smug Les, I may have a solution.
+	  I can improve things for your planet but only if you take Les down a peg. Looking at security tapes he gets up for coffee every so often for only 90 seconds, you can set your watch to it. 
+	  Get to his terminal and mess up his planet, don't clock out until things are done. Don't get caught, I'll contact you again soon.
+	  </BodyString>
+      <DayAdded>1</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="32">
+     <FromString>Jane Parzkek</FromString>
+      <DateString>4128/45</DateString>
+      <SubjectString>Questions</SubjectString>
+      <BodyString>Greetings Mr. Stirch,
+	  I'm a Civilization Specialist Analyst currently assigned to Mr. Izzfizz's planet and I had some questions about some strange incidents happening on his world. If you have some time if you could please call me?
+	  Greatly appreciated.
+	  -Jane Parzkek
+	  CivSpec Class 2 x.4652
 	  </BodyString>
       <DayAdded>5</DayAdded>
       <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="33">
+     <FromString>Jane Parzkek</FromString>
+      <DateString>4128/45</DateString>
+      <SubjectString>CivSpec Investigation</SubjectString>
+      <BodyString>Greetings Mr. Izzfizz, Unfortunately it appears that you unwisely triggered a Massive Structure Generation protocol. This has caused the humanoids to create large pyramid structures. I hope you understand the severity of this situation. I have started to look into your suspicions that this is some sort of conspiracy, will report on my findings.
+	  -Jane Parzkek - CivSpec Class 2 x.4652
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="34">
+     <FromString>Marsha Izfizz</FromString>
+      <DateString>4128/45</DateString>
+      <SubjectString>Concerned</SubjectString>
+      <BodyString>Honey, I overheard you mumbling in your sleep about "someone out to get you" and then you just kept repeating "More Scalability." Is everything alright? You've been seeming very paranoid lately, maybe we should discuss with Dr. Qirbyrz next week?
+	-Marsha
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="35">
+     <FromString>Supervisor Flark</FromString>
+      <DateString>4128/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Massive Structures? Really? Now they've got pyramids, I hope you're happy! Why don't you just give these apes the formula for rocket fuel so they can come up here and take our jobs and save us a whole lot of time!?
+	  I'm sorry, this is just really stressing me out, you know my job is on the line too?
+	  -Supervisor Flark - Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>5</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="36">
+     <FromString>Supervisor Flark</FromString>
+      <DateString>4129/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Oh thank goodness, there was a string of volcanic eruptions. Most of the seats of knowledge were destroyed and the humanoids have entered a dark age. They're starting wars over symbols! We might actually be ok. As long as these smaller civilizations stay far away from each other they should continue at a manageable level without presenting a threat.
+	  -Supervisor Flark - Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="37">
+     <FromString>Jane Parzkek</FromString>
+      <DateString>4129/45</DateString>
+      <SubjectString>CivSpec Investigation Followup</SubjectString>
+      <BodyString>Greetings Mr. Izzfizz, I heard about your dark age, congratulations, hopefully this is a turning point for your planet and in the future we can Leverage its Assets. 
+	  I've continued my investigation into your suspicions of sabotage and currently turned up with no evidence. I will continue to monitor the situation but in light of recent events I don't believe that is necessary. Thank you for your time. 
+	  -Jane Parzkek - CivSpec Class 2 x.4652
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="38">
+     <FromString>Jay Byrzburg</FromString>
+      <DateString>4129/45</DateString>
+      <SubjectString>Congratulations!</SubjectString>
+      <BodyString>Great work keeping it together there buddy! Leave those apes in the dark! Keep up the good work!
+	  -The Burg
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="39">
+     <FromString>Zargon Hotel</FromString>
+      <DateString>4129/45</DateString>
+      <SubjectString>Weekend Plans?</SubjectString>
+      <BodyString>Hello Mr. IzzFizz!
+	  I have a special offer for you from the Zargon Hotel. We can offer you a special rate if you stay with us this upcoming weekend. For this special rate please enter the following code in our site:
+	  M154L1GNV3RT1C4L$
+	  Hope to see you this weekend! 
+	  -Zargon Promotionals
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="40">
+     <FromString>3#%#87-8]</FromString>
+      <DateString>4129/49</DateString>
+      <SubjectString>)(#%*O.p.e.n.M3$!@</SubjectString>
+      <BodyString>They're starting to catch on, maybe you should consider a vacation? consider. a. vacation.
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="41">
+     <FromString>Supervisor Garn</FromString>
+      <DateString>4129/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Numbers continue to climb but are stable enough to not raise any concerns. Looks like we're going to have a nice relaxing weekend.
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="42">
+     <FromString>Paul (roommate)</FromString>
+      <DateString>4129/45</DateString>
+      <SubjectString>Pizza?</SubjectString>
+      <BodyString>Hey bud, thanks for the rent check. We're thinking about putting in a Pizza order tonight, you in?
+	  </BodyString>
+      <DayAdded>6</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="43">
+      <FromString>Becky Zizlch</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>Get Well Card</SubjectString>
+      <BodyString>As you may already know our colleague, Tanya Qwatlu, has caught a really awful case of the radiation madness. I'll be swinging by with a get well card it would mean a lot if everyone could sign it!
+	  Thanks!
+	  -Becky
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="44">
+      <FromString>Becky Zizlch</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>Get Well Card</SubjectString>
+      <BodyString>As you may already know our colleague, Tanya Qwatlu, has caught a really awful case of the radiation madness, (she's running a fever of at least 28frz). I'll be swinging by with a get well card it would mean a lot if everyone could sign it!
+	  Thanks!
+	  -Becky
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="45">
+     <FromString>3#%#87-8]</FromString>
+      <DateString>4130/49</DateString>
+      <SubjectString>)(#%*O.p.e.n.M3$!@</SubjectString>
+      <BodyString>We're almost there! As long as we stay healthy and focus on our HEALTH everything will be fine.
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="46">
+     <FromString>Jay Byrzburg</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>You busy?</SubjectString>
+      <BodyString>Hey Jon (we gotta get you a nickname), you had a really stellar week and I wanted to know if maybe you wanted to spend the weekend on my boat? We were thinking of taking it over to the beta quadrant and do some fishing.
+	  Hit me up, think it would be good for your career ;).
+	  -The Burg
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="47">
+     <FromString>Becky Zizlch</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>Employee of the Week</SubjectString>
+      <BodyString>Greetings Jon!
+	  I'm excited to announce that you are going to be our Employee of the Week! Please submit a recent picture for our plague. Enjoy your weekend! 
+	  -Becky
+	  #5456-1222 8)
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="48">
+	<FromString>Supervisor Garn</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Greetings Manager.
+Stable numbers across the board. Enjoy your weekend sir!
+	  -Planetary Supervisor Dan Garn
+	  Planet 6462 ext. 1245
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>true</PlayerEmail>
+    </Message>
+	<Message ID="49">
+     <FromString>Supervisor Flark</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>Daily Report</SubjectString>
+      <BodyString>Well I've got good news and bad news. The bad news is the various humanoid colonies made contact with each other, advancing and synergizing their global technologies at a rate unseen before.
+	  The good news is they've been killing each other also at an increased rate, disease, war, you name, it's not great for resources but it's keeping the lifesigns in check. Please I'm begging you though, no more Massive Structures these people can't handle that. 
+	  -Supervisor Flark - Planet ZZ9-42 ext. 52752
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="50">
+     <FromString>Jay Byrzburg</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>Weekend</SubjectString>
+      <BodyString> So I know things haven't been too terrible, especially after those couple days you had. But even if things don't get worse and you keep those apes synergized I'm going to need you to come in over the weekend. Thanks.
+	  -Jay "The burg" Byrzburg x.3456
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
+    </Message>
+	<Message ID="51">
+     <FromString>Marsha Izfizz</FromString>
+      <DateString>4130/45</DateString>
+      <SubjectString>We need to talk</SubjectString>
+	  <BodyString>Yeah, give me a call when you get the chance, I can't help if you won't let me.
+	  -M
+	  </BodyString>
+      <DayAdded>7</DayAdded>
+      <PlayerEmail>false</PlayerEmail>
     </Message>
   </Messages>
 </MessageCollection>

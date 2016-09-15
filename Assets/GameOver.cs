@@ -4,12 +4,16 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour {
 
-	private Animator UIanimator;
+	public Animator UIanimator;
 	private PlayerValues playerValues;
+	public AudioSource sFXaudioSource;
+
+	public AudioClip fallSound;
+	public AudioClip crashSound;
+	public AudioClip gameOverSound;
 
 	// Use this for initialization
 	void Start () {
-		UIanimator = FindObjectOfType<Canvas> ().GetComponent<Animator> ();
 		playerValues = FindObjectOfType<PlayerValues> ().GetComponent<PlayerValues> ();
 	
 	}
@@ -18,12 +22,30 @@ public class GameOver : MonoBehaviour {
 		UIanimator.SetTrigger ("UIonscreen");
 	}
 
+	public void playFallSound(){
+		sFXaudioSource.clip = fallSound;
+		sFXaudioSource.Play ();
+	}
+
+	public void playCrashSound(){
+		sFXaudioSource.clip = crashSound;
+		sFXaudioSource.Play ();
+	}
+
+	public void playGameOverSound(){
+		sFXaudioSource.clip = gameOverSound;
+		sFXaudioSource.Play ();
+	}
+
 	public void gameRestart(){
 		playerValues.playersComputer = true;
 		playerValues.enemyGotUp = false;
 		playerValues.timeSinceLastBreak = 0;
 		playerValues.timeSinceEnemyGotUp = 0;
 		playerValues.dayStart = true;
+		playerValues.gameOver = false;
+		playerValues.gameFirstStart = false;
+		playerValues.timersStarted = true;
 		SceneManager.LoadScene (1);
 	}
 	
